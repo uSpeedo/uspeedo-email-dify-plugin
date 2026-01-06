@@ -1,0 +1,58 @@
+identity:
+  author: "uspeedo"
+  name: "uspeedo-email"
+  label:
+    en_US: "uspeedo-email"
+    zh_Hans: "uspeedo-email"
+    pt_BR: "uspeedo-email"
+    ja_JP: "uspeedo-email"
+  description:
+    en_US: "USpeedo email sending plugin that supports sending emails in workflows"
+    zh_Hans: "USpeedo邮件发送插件，支持在工作流中发送邮件"
+    pt_BR: "Plugin de envio de e-mail USpeedo que suporta o envio de e-mails em fluxos de trabalho"
+    ja_JP: "USpeedoメール送信プラグイン。ワークフローでメールを送信できます"
+  icon: "icon.svg"
+
+credentials_schema:
+  - name: "access_key_id"
+    type: "secret-input"
+    required: true
+    label:
+      en_US: "ACCESSKEY_ID"
+      zh_Hans: "访问密钥ID"
+      pt_BR: "ACCESSKEY_ID"
+      ja_JP: "ACCESSKEY_ID"
+    placeholder:
+      en_US: "Please input your ACCESSKEY_ID from uspeedo.com"
+      zh_Hans: "请输入从 uspeedo.com 获取的 ACCESSKEY_ID"
+      pt_BR: "Insira seu ACCESSKEY_ID do uspeedo.com"
+      ja_JP: "uspeedo.com から取得した ACCESSKEY_ID を入力してください"
+    help:
+      en_US: "ACCESSKEY_ID is used to authenticate requests to the USpeedo API. You can get it from uspeedo.com."
+      zh_Hans: "ACCESSKEY_ID 用于认证请求到 USpeedo API。您可以从 uspeedo.com 获取。"
+      pt_BR: "ACCESSKEY_ID é usado para autenticar solicitações à API do USpeedo. Você pode obtê-lo em uspeedo.com."
+      ja_JP: "ACCESSKEY_ID は USpeedo API へのリクエストを認証するために使用されます。uspeedo.com から取得できます。"
+  - name: "access_key_secret"
+    type: "secret-input"
+    required: true
+    label:
+      en_US: "ACCESSKEY_SECRET"
+      zh_Hans: "访问密钥"
+      pt_BR: "ACCESSKEY_SECRET"
+      ja_JP: "ACCESSKEY_SECRET"
+    placeholder:
+      en_US: "Please input your ACCESSKEY_SECRET from uspeedo.com"
+      zh_Hans: "请输入从 uspeedo.com 获取的 ACCESSKEY_SECRET"
+      pt_BR: "Insira seu ACCESSKEY_SECRET do uspeedo.com"
+      ja_JP: "uspeedo.com から取得した ACCESSKEY_SECRET を入力してください"
+    help:
+      en_US: "ACCESSKEY_SECRET is used to authenticate requests to the USpeedo API. You can get it from uspeedo.com."
+      zh_Hans: "ACCESSKEY_SECRET 用于认证请求到 USpeedo API。您可以从 uspeedo.com 获取。"
+      pt_BR: "ACCESSKEY_SECRET é usado para autenticar solicitações à API do USpeedo. Você pode obtê-lo em uspeedo.com."
+      ja_JP: "ACCESSKEY_SECRET は USpeedo API へのリクエストを認証するために使用されます。uspeedo.com から取得できます。"
+
+tools:
+  - tools/uspeedo-email.yaml
+extra:
+  python:
+    source: provider/uspeedo-email.py

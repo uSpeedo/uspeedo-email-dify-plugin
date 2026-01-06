@@ -1,0 +1,73 @@
+identity:
+  author: uspeedo
+  name: uspeedo-email
+  label:
+    en_US: uspeedo-email
+    zh_Hans: uspeedo-email
+
+description:
+  human:
+    en_US: Send emails using USpeedo email service.
+    zh_Hans: 使用 USpeedo 邮件服务发送邮件
+  llm: Send emails using USpeedo email service with HTML content and multiple recipients.
+
+parameters:
+  - name: send_email
+    type: string
+    required: true
+    label:
+      en_US: Sender Email
+      zh_Hans: 发件人邮箱
+    human_description:
+      en_US: Sender email address
+      zh_Hans: 发件人邮箱地址
+    form: llm
+
+  # --- 重点检查和修改这里 ---
+  - name: target_email_address
+    type: string
+    required: true
+    label:
+      en_US: Recipient Email Addresses
+      zh_Hans: 收件人邮箱地址
+    human_description:
+      en_US: "Recipient email addresses, multiple addresses separated by commas. For example: user1@example.com,user2@example.com"
+      zh_Hans: "收件人邮箱地址，多个地址用逗号分隔。例如：user1@example.com,user2@example.com"
+    form: llm
+
+  - name: subject
+    type: string
+    required: true
+    label:
+      en_US: Email Subject
+      zh_Hans: 邮件主题
+    human_description:
+      en_US: Email subject
+      zh_Hans: 邮件主题
+    form: llm
+
+  - name: content
+    type: string
+    required: true
+    label:
+      en_US: Email Content
+      zh_Hans: 邮件内容
+    human_description:
+      en_US: HTML content of the email
+      zh_Hans: 邮件的HTML内容
+    form: llm
+
+  - name: from_name
+    type: string
+    required: false
+    label:
+      en_US: Sender Display Name
+      zh_Hans: 发件人显示名称
+    human_description:
+      en_US: Display name of the sender (optional)
+      zh_Hans: 发件人的显示名称（可选）
+    form: llm
+
+extra:
+  python:
+    source: tools/uspeedo-email.py
