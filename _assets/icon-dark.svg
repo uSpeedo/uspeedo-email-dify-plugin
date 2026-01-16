@@ -1,55 +1,6 @@
-<!--
-  ~ Dify Marketplace Template Icon
-  ~ Dify 市场模板图标
-  ~ Dify マーケットプレイステンプレートアイコン
-  ~
-  ~ WARNING / 警告 / 警告:
-  ~ 
-  ~ English: This is a TEMPLATE icon from Dify Marketplace only. You MUST NOT use this default icon in any way.
-  ~ Please replace it with your own custom icon before submit this plugin.
-  ~ 
-  ~ 中文: 这只是来自 Dify 市场的模板图标。您绝对不能以任何方式使用此默认图标。
-  ~ 请在提交此插件之前将其替换为您自己的自定义图标。
-  ~ 
-  ~ 日本語: これは Dify マーケットプレイスのテンプレートアイコンです。このデフォルトアイコンをいかなる方法でも使用してはいけません。
-  ~ このプラグインを提出する前に、独自のカスタムアイコンに置き換えてください。
-  ~ 
-  ~ DIFY_MARKETPLACE_TEMPLATE_ICON_DO_NOT_USE
-  -->
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_15253_95095)">
-<rect width="40" height="40" fill="#0033FF"/>
-<g filter="url(#filter0_n_15253_95095)">
-<rect width="40" height="40" fill="url(#paint0_linear_15253_95095)"/>
-</g>
-<path d="M28 10C28.5523 10 29 10.4477 29 11V16C29 16.5523 28.5523 17 28 17H23V30C23 30.5523 22.5523 31 22 31H18C17.4477 31 17 30.5523 17 30V17H11.5C10.9477 17 10.5 16.5523 10.5 16V13.618C10.5 13.2393 10.714 12.893 11.0528 12.7236L16.5 10H28ZM23 12H16.9721L12.5 14.2361V15H19V29H21V15H23V12ZM27 12H25V15H27V12Z" fill="white"/>
-</g>
-<defs>
-<filter id="filter0_n_15253_95095" x="0" y="0" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feTurbulence type="fractalNoise" baseFrequency="2 2" stitchTiles="stitch" numOctaves="3" result="noise" seed="8033" />
-<feComponentTransfer in="noise" result="coloredNoise1">
-<feFuncR type="linear" slope="2" intercept="-0.5" />
-<feFuncG type="linear" slope="2" intercept="-0.5" />
-<feFuncB type="linear" slope="2" intercept="-0.5" />
-<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-</feComponentTransfer>
-<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
-<feComponentTransfer in="noise1Clipped" result="color1">
-<feFuncA type="table" tableValues="0 0.06" />
-</feComponentTransfer>
-<feMerge result="effect1_noise_15253_95095">
-<feMergeNode in="shape" />
-<feMergeNode in="color1" />
-</feMerge>
-</filter>
-<linearGradient id="paint0_linear_15253_95095" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1443FF"/>
-<stop offset="1" stop-color="#0031F5"/>
-</linearGradient>
-<clipPath id="clip0_15253_95095">
-<rect width="40" height="40" fill="white"/>
-</clipPath>
-</defs>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.3816 19.0404L29.8112 27.5168C30.5084 28.2179 30.624 29.2825 30.1578 30.104C24.2092 35.0282 15.57 35.0171 9.6097 30.0773C9.14121 29.2556 9.25632 28.1898 9.95419 27.4881L18.3552 19.0404C19.1909 18.2001 20.5459 18.2001 21.3816 19.0404ZM9.26683 6.63032L17.6679 15.078C18.5036 15.9183 18.5036 17.2808 17.6679 18.1211L9.23825 26.5975C8.541 27.2986 7.4823 27.4148 6.66529 26.946C1.76832 20.9645 1.77933 12.2773 6.69185 6.28393C7.50902 5.81284 8.56896 5.92859 9.26683 6.63032Z" fill="#5C6A86"/>
+<path d="M33.0358 6.28178C37.9327 12.2633 37.9217 20.9505 33.0092 26.9439C32.192 27.415 31.1321 27.2992 30.4342 26.5975L29.082 25.238C31.3561 23.071 32.7739 20.0085 32.7739 16.6139C32.7739 13.2265 31.3621 10.1698 29.0966 8.0036L30.4628 6.63026C31.1601 5.92914 32.2188 5.81298 33.0358 6.28178Z" fill="#5C6A86"/>
+<path d="M24.4293 12.6973C25.4971 13.6617 26.1685 15.0591 26.1685 16.6138C26.1685 18.1758 25.4908 19.5791 24.4143 20.5439L22.033 18.1498C21.1973 17.3094 21.1973 15.9469 22.033 15.1066L24.4293 12.6973Z" fill="#5C6A86"/>
+<path d="M31.0151 16.6137C31.0151 19.521 29.7943 22.1423 27.8389 23.99L25.5547 21.6931C26.9241 20.4336 27.7826 18.6242 27.7826 16.6137C27.7826 14.6106 26.9304 12.8071 25.5697 11.5482L27.8534 9.25122C29.8003 11.0982 31.0151 13.7137 31.0151 16.6137Z" fill="#5C6A86"/>
 </svg>
